@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="payback.js"></script>
+</head>
+<body>
+<div>
+    <Label for="total">Total:</Label>
+    <input id ="total" type="number" name="total" min="0">
+    <label for="pay">收你費用：</label>
+    <input id ="pay" type="number" min="0" name="pay">
+    <button id = "button" type="submit" onclick="buttonPayback()" >找錢</button>
+    <p id="text"></p>
+    <br/>
+    <br/>
+    <br/>
+    <span >找您: <span id="fee">元</span></span>
+    
+    <br/>
+    <br/>
+    <div id="display">
+    <span>五百元：</span>
+    <span id = "displayFivehunderd"  >&nbsp;</span>    <br/>
+    <span>百元：</span>
+    <span id = "displayHundred">&nbsp;</span>    <br/>
+    <span>五十元：</span>
+    <span id = "displayFifty">&nbsp;</span>    <br/>
+    <span>十元：</span>
+    <span id = "dispalyTen">&nbsp;</span>    <br/>
+    <span>五元：</span>
+    <span id = "displayFive">&nbsp;</span>    <br/>
+    <span>一元：</span>
+    <span id = "displayOne"></span>
+    </div>
+</div>
+</body>
+</html>
